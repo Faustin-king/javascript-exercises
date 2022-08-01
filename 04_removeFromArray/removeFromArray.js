@@ -1,5 +1,5 @@
 const removeFromArray = function (...args) {
-  const Array = [0]
+  const Array = args[0]
   const newArray = []
   Array.forEach((item) => {
     if (!args.includes(item)) {
