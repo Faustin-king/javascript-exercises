@@ -1,5 +1,5 @@
 const sumAll = function (...theArgs) {
-  const total = 0
+  let total = 0
   for (const arg of theArgs) {
     total += arg
   }
