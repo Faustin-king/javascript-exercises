@@ -6,7 +6,5 @@ const sumAll = function (...theArgs) {
   return total
 }
 
-console.log(total(1, 2, 3, 4))
-
 // Do not edit below this line
 module.exports = sumAll
