@@ -4,6 +4,7 @@ const removeFromArray = function (...args) {
   array.forEach((item) => {
     if (!args.includes(item)) {
       newArray.push(item)
+      console.log(newArray)
     }
   })
   return newArray
